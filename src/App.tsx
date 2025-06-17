@@ -1,4 +1,5 @@
 import Hero from './components/Hero'
+import RestaurantsList from './components/RestaurantsList'
 import { GlobalCss } from './styles'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <GlobalCss />
       <Hero />
+      <RestaurantsList />
     </>
   )
 }

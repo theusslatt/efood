@@ -1,5 +1,4 @@
 import { HeroBackground } from './styles'
-
 import logo from '../../assets/images/logo.svg'
 
 const Hero = () => (
