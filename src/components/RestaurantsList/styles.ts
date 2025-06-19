@@ -5,6 +5,7 @@ export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
   margin-top: 80px;
+  margin-bottom: 120px;
 `
 
 export const List = styled.ul`

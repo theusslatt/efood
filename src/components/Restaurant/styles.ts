@@ -33,6 +33,7 @@ export const Card = styled.div`
 export const Title = styled.h3`
   font-size: 18px;
   margin-left: 8px;
+  margin-top: 8px;
 `
 
 export const Description = styled.p`
