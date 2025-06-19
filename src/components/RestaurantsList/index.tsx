@@ -1,9 +1,14 @@
 import Restaurant from '../Restaurant'
-import { Container } from './styles'
+import { Container, List } from './styles'
 
 const RestaurantsList = () => (
   <Container>
-    <Restaurant />
+    <List>
+      <Restaurant />
+      <Restaurant />
+      <Restaurant />
+      <Restaurant />
+    </List>
   </Container>
 )
 
