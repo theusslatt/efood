@@ -3,6 +3,7 @@ import Restaurant from '../../models/Restaurant'
 
 import hiokiSushi from '../../assets/images/hiokiSushi.png'
 import laDolceVitaTrattoriaki from '../../assets/images/laDolceVitaTrattoria.png'
+import Hero from '../../components/Hero'
 
 const catalogo: Restaurant[] = [
   {
@@ -63,6 +64,7 @@ const catalogo: Restaurant[] = [
 
 const Home = () => (
   <>
+    <Hero />
     <RestaurantsList restaurants={catalogo} />
   </>
 )
