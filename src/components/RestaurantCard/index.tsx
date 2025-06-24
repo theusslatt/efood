@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import estrela from '../../assets/images/estrela.png'
 import Tag from '../Tag'
 import { Card, Description, Infos, Rating, Title } from './styles'
@@ -26,7 +28,9 @@ const Restaurant = ({ image, title, rating, category, description }: Props) => (
       </Rating>
     </div>
     <Description>{description}</Description>
-    <button>Saiba mais</button>
+    <Link to="/perfil">
+      <button>Saiba mais</button>
+    </Link>
   </Card>
 )
 
