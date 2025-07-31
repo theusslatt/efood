@@ -18,4 +18,9 @@ export const HeaderContainer = styled.header`
     flex-direction: row;
     text-align: center;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `

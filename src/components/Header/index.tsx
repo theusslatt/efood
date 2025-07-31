@@ -5,11 +5,13 @@ import logo from '../../assets/images/logo.svg'
 const Header = () => (
   <HeaderContainer>
     <div>
-      <h3>Restaurantes</h3>
+      <h3>
+        <Link to="/">Restaurantes</Link>
+      </h3>
       <Link to="/">
         <img src={logo} alt="Efood" />
       </Link>
-      <h3> 0 produto(s) no carrinho</h3>
+      <h3>0 produto(s) no carrinho</h3>
     </div>
   </HeaderContainer>
 )
